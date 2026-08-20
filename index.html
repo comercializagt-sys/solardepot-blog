@@ -44,6 +44,7 @@
     .art-card{background:white;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .2s;cursor:pointer;text-decoration:none;display:block;color:inherit}
     .art-card:hover{transform:translateY(-4px)}
     .art-thumb{height:180px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+    .art-thumb img{width:100%;height:100%;object-fit:cover;display:block}
     .art-thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(17,36,72,.25),rgba(17,36,72,.55))}
     .art-thumb.blue{background-color:#1B3A6B}
     .art-thumb.orange{background-color:#c44010}
@@ -71,7 +72,7 @@
     .art-view-header .art-cat{font-size:.78rem;margin-bottom:16px}
     .art-view-header h1{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.2;color:var(--navy);margin-bottom:16px}
     .art-view-meta{display:flex;gap:20px;color:var(--gray);font-size:.82rem;flex-wrap:wrap}
-    .art-hero-img{width:100%;height:280px;border-radius:var(--radius);background-size:cover;background-position:center;margin-bottom:40px;position:relative;overflow:hidden}
+    .art-hero-img{width:100%;height:280px;border-radius:var(--radius);margin-bottom:40px;position:relative;overflow:hidden;background-color:var(--navy)} .art-hero-img img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;top:0;left:0}
     .art-hero-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(17,36,72,.4))}
     .art-hero-img.blue{background-color:#1B3A6B}
     .art-hero-img.teal{background-color:#164e63}
@@ -168,7 +169,7 @@
     <div class="articles-grid" id="grid-articulos">
 
       <a class="art-card" data-cat="ahorro" onclick="abrirArticulo('cuanto-se-ahorra');return false;" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-ahorro.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-ahorro.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Ahorro</span><span class="badge-new">Nuevo</span>
           <h3>¿Cuánto se ahorra realmente con paneles solares en Guatemala?</h3>
@@ -178,7 +179,7 @@
       </a>
 
       <a class="art-card" data-cat="como-funciona" onclick="abrirArticulo('como-funciona');return false;" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-como-funciona.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-como-funciona.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Cómo funciona</span><span class="badge-new">Nuevo</span>
           <h3>Cómo funciona un sistema solar residencial en Guatemala</h3>
@@ -188,7 +189,7 @@
       </a>
 
       <a class="art-card" data-cat="mitos" onclick="abrirArticulo('mitos-paneles-solares');return false;" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/mito-vs-realidad.svg');background-size:cover;background-position:center"></div>
+        <div class="art-thumb" style="background-size:cover;background-position:center"><img src="https://comercializagt-sys.github.io/solardepot-blog/mito-vs-realidad.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Mitos</span><span class="badge-new">Nuevo</span>
           <h3>7 mitos sobre paneles solares que frenan la decisión</h3>
@@ -198,7 +199,7 @@
       </a>
 
       <a class="art-card" data-cat="como-funciona" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-excedentes.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-excedentes.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Cómo funciona</span>
           <h3>¿Qué pasa con la energía solar que no usas?</h3>
@@ -208,7 +209,7 @@
       </a>
 
       <a class="art-card" data-cat="financiamiento" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-financiamiento.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-financiamiento.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Financiamiento</span>
           <h3>Cómo financiar paneles solares en Guatemala sin enganche</h3>
@@ -218,7 +219,7 @@
       </a>
 
       <a class="art-card" data-cat="instalacion" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-cuantos-paneles.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-cuantos-paneles.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Instalación</span>
           <h3>¿Cuántos paneles solares necesita tu casa?</h3>
@@ -228,7 +229,7 @@
       </a>
 
       <a class="art-card" data-cat="casos-reales" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-caso-real.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-caso-real.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Casos reales</span>
           <h3>Caso real: familia en Fraijanes ahorra Q950 al mes con solar</h3>
@@ -238,7 +239,7 @@
       </a>
 
       <a class="art-card" data-cat="ahorro" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-vale-la-pena.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-vale-la-pena.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Ahorro</span>
           <h3>¿Vale la pena instalar paneles solares en Guatemala en 2025?</h3>
@@ -248,7 +249,7 @@
       </a>
 
       <a class="art-card" data-cat="instalacion" href="#">
-        <div class="art-thumb" style="background-image:url('https://comercializagt-sys.github.io/solardepot-blog/art-elegir-empresa.svg')"></div>
+        <div class="art-thumb" ><img src="https://comercializagt-sys.github.io/solardepot-blog/art-elegir-empresa.svg" alt="" loading="lazy"/></div>
         <div class="art-body">
           <span class="art-cat">Instalación</span>
           <h3>Cómo elegir una empresa de paneles solares en Guatemala</h3>
@@ -282,7 +283,7 @@
         <span id="art-tiempo"></span>
       </div>
     </div>
-    <div class="art-hero-img" id="art-hero-img"></div>
+    <div class="art-hero-img" id="art-hero-img"><img id="art-hero-img-tag" src="" alt="" style="width:100%;height:100%;object-fit:cover;display:block;position:absolute;top:0;left:0;"/></div>
     <div class="art-content" id="art-contenido"></div>
   </div>
 </div>
@@ -302,7 +303,7 @@ const ARTICULOS = {
   'cuanto-se-ahorra':{
     titulo:'¿Cuánto se ahorra realmente con paneles solares en Guatemala?',
     categoria:'Ahorro',tiempo:'7 min lectura',fecha:'Marzo 2025',emoji:'☀️',color:'blue',
-    img:'https://www.dimansolar.com/wp-content/uploads/2023/05/residential-solar.jpg',
+    img:'https://comercializagt-sys.github.io/solardepot-blog/art-ahorro.svg',
     contenido:`
       <p class="art-intro">Una de las preguntas más frecuentes: <em>"¿Cuánto voy a ahorrar realmente?"</em> No con estimaciones genéricas, sino con números reales aplicados a viviendas guatemaltecas.</p>
       <p>La respuesta honesta: <strong>depende de tu consumo, tu distribuidora y el tamaño del sistema</strong>. Pero los rangos son muy concretos.</p>
@@ -345,7 +346,7 @@ const ARTICULOS = {
   'como-funciona':{
     titulo:'Cómo funciona un sistema solar residencial en Guatemala',
     categoria:'Cómo funciona',tiempo:'6 min lectura',fecha:'Marzo 2025',emoji:'⚡',color:'teal',
-    img:'https://www.skyfiresolarmontana.com/wp-content/uploads/2022/09/how-do-solar-panels-work-e1663000073499.jpeg',
+    img:'https://comercializagt-sys.github.io/solardepot-blog/art-como-funciona.svg',
     contenido:`
       <p class="art-intro">Muchas personas se interesan en la energía solar pero se detienen porque sienten que no entienden cómo funciona. Lo explicamos de forma simple, sin tecnicismos.</p>
       <h2>Los 4 componentes principales</h2>
@@ -403,8 +404,10 @@ function abrirArticulo(id) {
   document.getElementById('art-tiempo').textContent = '⏱ ' + a.tiempo;
   const hero = document.getElementById('art-hero-img');
   hero.className = 'art-hero-img ' + a.color;
-  hero.style.backgroundImage = "url('" + a.img + "')";
-  hero.textContent = '';
+  hero.style.backgroundImage = '';
+  const heroImg = document.getElementById('art-hero-img-tag');
+  heroImg.src = a.img;
+  heroImg.alt = a.titulo;
   document.getElementById('art-contenido').innerHTML = a.contenido;
   document.getElementById('vista-lista').style.display = 'none';
   document.getElementById('vista-articulo').style.display = 'block';
