@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d2240"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/><line x1="600" y1="0" x2="600" y2="400"/>
+  </g>
+  <!-- Medidor bidireccional central -->
+  <circle cx="400" cy="185" r="70" fill="rgba(43,123,200,0.1)" stroke="#2B7BC8" stroke-width="2"/>
+  <circle cx="400" cy="185" r="50" fill="rgba(43,123,200,0.08)" stroke="#4A9DE0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="400" y="175" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="1">MEDIDOR</text>
+  <text x="400" y="195" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="11" fill="#4A9DE0" letter-spacing="1">BIDIRECCIONAL</text>
+  <!-- Casa izquierda -->
+  <text x="120" y="175" text-anchor="middle" font-family="sans-serif" font-size="40">🏠</text>
+  <text x="120" y="210" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,0.5)">TU HOGAR</text>
+  <!-- Red derecha -->
+  <text x="680" y="175" text-anchor="middle" font-family="sans-serif" font-size="40">🔌</text>
+  <text x="680" y="210" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,0.5)">LA RED</text>
+  <!-- Flecha derecha: excedente va a la red -->
+  <line x1="470" y1="175" x2="620" y2="175" stroke="#22c55e" stroke-width="2.5"/>
+  <polygon points="620,168 636,175 620,182" fill="#22c55e"/>
+  <text x="545" y="162" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="#22c55e">EXCEDENTE</text>
+  <!-- Flecha izquierda: noche viene de la red -->
+  <line x1="330" y1="198" x2="180" y2="198" stroke="#E8541A" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <polygon points="180,191 164,198 180,205" fill="#E8541A"/>
+  <text x="255" y="218" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="#E8541A">NOCHE / NUBLADO</text>
+  <!-- Sol arriba -->
+  <circle cx="400" cy="60" r="22" fill="#fbbf24" opacity="0.8"/>
+  <line x1="400" y1="90" x2="400" y2="115" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <text x="400" y="108" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="9" fill="rgba(255,165,0,0.6)">genera</text>
+  <!-- Title -->
+  <text x="400" y="316" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="22" fill="white">¿Qué pasa con la energía que no usas?</text>
+  <text x="400" y="344" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.45)">Excedentes, medidor bidireccional y compensación</text>
+  <text x="400" y="388" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.2)" letter-spacing="3">SOLARDEPOT GUATEMALA</text>
+</svg>

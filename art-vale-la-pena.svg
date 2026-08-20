@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0800"/>
+      <stop offset="100%" style="stop-color:#2d1500"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/><line x1="600" y1="0" x2="600" y2="400"/>
+  </g>
+  <!-- Balanza visual -->
+  <!-- Palo central -->
+  <line x1="400" y1="80" x2="400" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="3"/>
+  <!-- Barra horizontal inclinada a favor del solar -->
+  <line x1="180" y1="155" x2="620" y2="145" stroke="rgba(255,255,255,0.4)" stroke-width="2.5"/>
+  <!-- Plato izquierdo - SIN SOLAR (más abajo = pesa más = cuesta más) -->
+  <ellipse cx="200" cy="200" rx="80" ry="20" fill="rgba(220,38,38,0.2)" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="200" y1="155" x2="200" y2="180" stroke="rgba(220,38,38,0.5)" stroke-width="1.5"/>
+  <text x="200" y="185" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="13" fill="#ef4444">SIN SOLAR</text>
+  <text x="200" y="208" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,0.4)">Factura sube</text>
+  <text x="200" y="224" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,0.4)">cada año ↑</text>
+  <!-- Plato derecho - CON SOLAR (más arriba = ahorra) -->
+  <ellipse cx="600" cy="178" rx="80" ry="20" fill="rgba(22,163,74,0.2)" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="600" y1="145" x2="600" y2="158" stroke="rgba(22,163,74,0.5)" stroke-width="1.5"/>
+  <text x="600" y="162" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="13" fill="#22c55e">CON SOLAR</text>
+  <text x="600" y="180" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,0.4)">Inversión única</text>
+  <text x="600" y="196" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="#22c55e">30 años ahorro ✓</text>
+  <!-- ROI indicator -->
+  <rect x="300" y="255" width="200" height="45" rx="8" fill="rgba(232,84,26,0.15)" stroke="#E8541A" stroke-width="1.5"/>
+  <text x="400" y="274" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="2">RECUPERO TÍPICO</text>
+  <text x="400" y="292" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="16" fill="#E8541A">2.5 – 4 años</text>
+  <!-- Title -->
+  <text x="400" y="336" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="900" font-size="21" fill="white">¿Vale la pena instalar solar en 2025?</text>
+  <text x="400" y="360" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.45)">Análisis honesto con números reales</text>
+  <text x="400" y="388" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.2)" letter-spacing="3">SOLARDEPOT GUATEMALA</text>
+</svg>
